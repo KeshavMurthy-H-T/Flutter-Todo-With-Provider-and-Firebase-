@@ -184,7 +184,7 @@ class _EditTaskDetailState extends State<EditTaskDetails> {
                                         taskDesc.text, selectedDate!);
 
                                 if (response!=null) {
-                                  moveback();
+                                  moveBack();
                                   showSnackBar(
                                       context, "Updated the task Data ");
                                 } else {
@@ -222,7 +222,7 @@ class _EditTaskDetailState extends State<EditTaskDetails> {
         });
   }
 
-  moveback() {
+  moveBack() {
     Navigator.of(context).pop();
     Navigator.of(context).pop();
   }

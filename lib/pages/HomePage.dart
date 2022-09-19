@@ -66,7 +66,7 @@ class _MyHomePageState extends State<HomePage> {
                                   height: 10.0,
                                 ),
                                 Text(
-                                  "Your Todays Todo Task",
+                                  "Your Today's Todo Task",
                                   style: Constants.sideMenuHeaderStyle(context),
                                 ),
                                 const SizedBox(
@@ -137,7 +137,7 @@ class _MyHomePageState extends State<HomePage> {
                             if (todoData.todaysTodo.isEmpty) {
                               return Center(
                                   child: Text(
-                                "There are no task added.. \n For Todays Dates",
+                                "There are no task added.. \n For Today's Date",
                                 style: Constants.textHeader(context),
                               ));
                             } else if (todoData.todaysTodo.isNotEmpty) {

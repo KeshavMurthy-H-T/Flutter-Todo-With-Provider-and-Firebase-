@@ -156,7 +156,7 @@ class _AddNewTaskState extends State<AddNewTask> {
                                   .addTaskToFirebase(userData, taskTitle.text,
                                       taskDesc.text, selectedDate!);
                               if (response != null) {
-                                moveback();
+                                moveBack();
                                 showSnackBar(
                                     context, "Added the task to list ");
                               } else {
@@ -193,7 +193,7 @@ class _AddNewTaskState extends State<AddNewTask> {
         });
   }
 
-  moveback() {
+  moveBack() {
     Navigator.of(context).pop();
     Navigator.of(context).pop();
   }
