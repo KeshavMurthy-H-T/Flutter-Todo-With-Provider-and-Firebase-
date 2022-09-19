@@ -137,7 +137,7 @@ class _MyHomePageState extends State<HomePage> {
                             if (todoData.todaysTodo.isEmpty) {
                               return Center(
                                   child: Text(
-                                "Opps there are no todo task added.. \n For Todays Date",
+                                "There are no task added.. \n For Todays Dates",
                                 style: Constants.textHeader(context),
                               ));
                             } else if (todoData.todaysTodo.isNotEmpty) {
